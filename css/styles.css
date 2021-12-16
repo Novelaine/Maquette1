@@ -1,0 +1,512 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mobile{
+    visibility: hidden;
+    width: 25px;
+}
+.fermer{
+    visibility: hidden;
+    width: 25px;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+nav{
+    margin: 22px 0;
+}
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+#navigation nav ul{
+    display: flex;
+    list-style:none;
+}
+#navigation a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 19px;
+}
+#titre{
+    padding: 15px;
+    margin-left: 46px;
+    font-size: 18px;
+}
+#titre :nth-child(2){
+    transform: rotate(90deg);
+}
+#titre :nth-child(3){
+    transform: rotate(180deg);
+}
+/***************** Fin Nav *****************/
+#banHead{
+    width: 32%;
+    color: #fff;
+    margin: 50px 56px 0;
+}
+#banHead h1{
+    font-size: 77px;
+    font-weight: bold;
+}
+#banHead button{
+    background-color: transparent;
+    border: 2px #fff solid;
+    padding: 11px 26px;
+    margin-bottom: 59px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+#banHead button:hover{
+    background-color: white;
+    color: #000;
+    border: 2px solid #000;
+}
+#banHead .fas{
+    font-size: 15px;
+    padding: 5px;
+    transform: rotate(90deg);
+}
+#banHead p{
+    padding: 19px 0 40px 0;
+    text-transform: capitalize;
+}
+/***************** Fin header *****************/
+#bandeJaune{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffc853;
+    text-transform: uppercase;
+    padding: 25px;
+    font-weight: bold;
+}
+#bandeJaune div{
+    width: 42%;
+}
+#bandeJaune input{
+    background-color: transparent;
+    border: 0;
+    border: 1px solid #000;
+    border-width: 0 0 1px 0;
+    position: relative;
+}
+#bandeJaune p{
+    margin-right: 35px;
+}
+.projet{
+    text-align: right;
+}
+#bandeJaune label{
+    text-align: left;
+}
+.adressEmail .fas{
+    font-size: 15px;
+}
+.projet a{
+    color: #000;
+    text-decoration: none;
+}
+/***************** Fin bande jaune *****************/
+.sousContainer{
+    display: flex;
+    width: 100%;
+}
+#block1{
+    width: 50%;
+}
+.blockPara{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    width: 73%;
+    text-align: left;
+    padding: 89px;
+}
+.blockRB{
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+}
+#blockB{
+    width: 50%;
+    background-color: #6bd3cc;
+    padding: 15px;
+}
+#blockB p{
+    width: 52%;
+    text-align: left;
+    padding: 77px;
+}
+#blockR{
+    width: 50%;
+    background-color: #ff4f42;
+    padding: 15px;
+}
+#blockR p{
+    width: 58%;
+    text-align: left;
+    padding: 77px;
+}
+.sousContainer img{
+    width: 100%;
+    margin-top: 77px;
+}
+.blockImg{
+    width: 50%;
+    background-color: #d3d2d3;
+}
+.fas{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+/***************** Fin block bleu et rouge *****************/
+.sousContainer1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sousContainer1 h2{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 166px;
+    margin-bottom: 80px;
+}
+#imgSousCont{
+    width: 50%;
+}
+#imgSousCont img{
+    width: 100%;
+}
+#imgSousCont1{
+    width: 50%;
+}
+#imgSousCont1 img{
+    width: 100%;
+}
+#textSousCont{
+    width: 50%;
+    margin: auto;
+}
+#textSousCont p{
+    width: 58%;
+    margin: auto;
+}
+#textSousCont1{
+    width: 50%;
+    margin: auto;
+}
+#textSousCont1 p{
+    width: 58%;
+    margin: auto;
+}
+/***************** Fin block avec block (2img 2para) *****************/
+#cadreBleu{
+    background-color: #6bd3cc;
+    text-align: center;
+    margin: auto;
+    padding: 139px;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+/***************** Fin block bleu *****************/
+#textSousCont2{
+    width: 50%;
+    margin: auto;
+}
+#textSousCont2 p{
+    width: 58%;
+    margin: auto;
+}
+#textSousCont2 h2{
+    text-transform: capitalize;
+}
+/***************** Fin block avec block (3img 3para) *****************/
+footer{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#formFooter{
+    background-color: #ffc853;
+    padding: 90px;
+}
+.textFooter{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+#formFooter h2{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 10px auto;
+    text-transform: capitalize;
+}
+#formFooter p{
+    padding: 10px 0;
+}
+#formFooter form{
+    padding: 15px;
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#formFooter form label{
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+#formFooter form input{
+    margin: 20px 0;
+    background-color: transparent;
+    border: 1px solid black;
+    border-width: 0 0 1px 0;
+}
+#formFooter form select{
+    margin: 20px 0;
+    background-color: transparent;
+    border: 1px solid black;
+    border-width: 0 0 1px 0;
+}
+#firtName{
+    width: 35%;
+    margin-top: 45px;
+}
+#firtName input{
+    width: 80%;
+}
+#lastName{
+    width: 30%; 
+    margin-top: 45px;
+}
+#lastName input{
+    width: 77%;
+}
+#email{
+    width: 35%;
+    margin-top: 45px;
+}
+#email input{
+    width: 77%;
+}
+#yourInterest{
+    width: 65%;
+    margin-top: 45px;
+}
+#yourInterest select{
+    width: 90%;
+}
+#phone{
+    width: 30%;
+    margin-top: 45px;
+}
+#phone input{
+    width: 90%;
+}
+#moduleCategory{
+    width: 65%;
+    margin-top: 45px;
+}
+#moduleCategory select{
+    width: 90%;
+}
+#role{
+    width: 30%;
+    margin-top: 45px;
+}
+#role select{
+    width: 91%;
+}
+#tellAbout{
+    width: 100%;
+    margin-top: 45px;
+}
+#tellAbout input{
+    width: 92%;
+}
+form p{
+    width: 100%;
+}
+form a{
+    color: #000;
+}
+form button{
+    background-color: transparent;
+    padding: 12px 32px;
+    border: 2px solid #000;
+    margin: 35px 0;
+}
+/***************** Fin form footer *****************/
+#basFooter{
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    padding: 50px 0;
+}
+#basFooter h3{
+    padding-left: 20px;
+    font-size: 20px;
+}
+#basFooter div{
+    display: flex;
+    justify-content: space-between;
+}
+#basFooter a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+/***************** Fin bas footer *****************/
+
+
+@media screen and (max-width: 1098px) {
+    #navigation nav li{
+        text-align: right;
+    }
+    #banHead{
+        width: 100%;
+        margin: auto;
+    }
+    #banHead h1{
+        font-size: 50px;
+    }
+    #banHead h2, #banHead p, #banHead button{
+        text-align: center;
+    }
+    .adressEmail label{
+        border: 0;
+    }
+    .adressEmail input{
+        border: 0;
+    }
+    #bandeJaune{
+        flex-direction: column;
+    }
+    .projet{
+        font-size: 10px;
+        padding: 10px 10px 0 10px;
+    }
+    #bandeJaune div {
+        width: 100%;
+    }
+    .adressEmail .fas{
+        display: none;
+    }
+    .sousContainer, .sousContainer1{
+        width: 100%;
+        flex-direction: column;
+    }
+    .blockPara{
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .blockPara p{
+        padding: 20px;
+    }
+    .blockRB{
+        flex-direction: column;
+    }
+    #block1, #blockB, #blockR{
+        width: 100%;
+        padding: 0;
+    }
+    #blockB p, #blockR p{
+        margin: auto;
+    }
+    #blockPara, .blockImg{
+        width: 100%;
+    }
+    #cadreBleu{
+        padding: 97px;
+    }
+    .sousContainer1 h2 {
+        margin-left: 108px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .sousContainer2 h2 {
+        margin-left: 108px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    #imgSousCont, #imgSousCont1, #textSousCont, #textSousCont1{
+        width: 100%;
+    }
+    #textSousCont2{
+        width: 100%;
+    }
+    #firtName, #lastName{
+        width: 50%;
+    }
+    #formFooter{
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .mobile {
+        visibility: visible;
+        width: 35px;
+        float: right;
+    }
+    #navigation nav{
+        visibility: hidden;
+        position: absolute;
+        width: 100%;
+    }
+    #navigation nav ul li a{
+        text-align: center;
+        background-color: rgb(8, 8, 8);
+        width: 100%;
+    }
+    #navigation nav ul{
+        float: right;
+    }
+    #navigation {
+        display: block;
+    }
+    #titre{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .sousContainer1 h2{
+        margin-left: 69px;
+    }
+    #basFooter, #basFooter div{
+        flex-direction: column;
+    }
+    #basFooter a{
+        padding-top: 10px;
+    }
+}
